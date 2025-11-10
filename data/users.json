@@ -1,0 +1,22 @@
+[
+  { "id": 1,  "full_name": "Laure Gartien",        "email": "laure@gmail.com",            "user_type": "Bibliothecaire" },
+  { "id": 2,  "full_name": "Gaspard Coulomb",      "email": "gaspard@aussie.com",         "user_type": "Lecteur" },
+  { "id": 3,  "full_name": "Mina Perrin",          "email": "mina.perrin@mail.com",       "user_type": "Lecteur" },
+  { "id": 4,  "full_name": "Hugo Lambert",         "email": "hugo.lambert@mail.com",      "user_type": "Lecteur" },
+  { "id": 5,  "full_name": "Aline Robert",         "email": "aline.robert@biblio.fr",     "user_type": "Bibliothecaire" },
+  { "id": 6,  "full_name": "Noah Girard",          "email": "noah.girard@mail.com",       "user_type": "Lecteur" },
+  { "id": 7,  "full_name": "Inès Marchand",        "email": "ines.marchand@mail.com",     "user_type": "Lecteur" },
+  { "id": 8,  "full_name": "Paul Durand",          "email": "paul.durand@mail.com",       "user_type": "Lecteur" },
+  { "id": 9,  "full_name": "Clara Fernandez",      "email": "clara.fernandez@mail.com",   "user_type": "Lecteur" },
+  { "id": 10, "full_name": "Yanis Bernard",        "email": "yanis.bernard@mail.com",     "user_type": "Lecteur" },
+  { "id": 11, "full_name": "Zoé Martin",           "email": "zoe.martin@mail.com",        "user_type": "Lecteur" },
+  { "id": 12, "full_name": "Olivier Caron",        "email": "olivier.caron@biblio.fr",    "user_type": "Bibliothecaire" },
+  { "id": 13, "full_name": "Lina Dupuis",          "email": "lina.dupuis@mail.com",       "user_type": "Lecteur" },
+  { "id": 14, "full_name": "Ethan Rousseau",       "email": "ethan.rousseau@mail.com",    "user_type": "Lecteur" },
+  { "id": 15, "full_name": "Sara Blanchard",       "email": "sara.blanchard@mail.com",    "user_type": "Lecteur" },
+  { "id": 16, "full_name": "Matteo Fabre",         "email": "matteo.fabre@mail.com",      "user_type": "Lecteur" },
+  { "id": 17, "full_name": "Aya Colin",            "email": "aya.colin@mail.com",         "user_type": "Lecteur" },
+  { "id": 18, "full_name": "Rayan Aubert",         "email": "rayan.aubert@mail.com",      "user_type": "Lecteur" },
+  { "id": 19, "full_name": "Léa Fontaine",         "email": "lea.fontaine@mail.com",      "user_type": "Lecteur" },
+  { "id": 20, "full_name": "Thomas Dupont",        "email": "thomas.dupont@mail.com",     "user_type": "Lecteur" }
+]

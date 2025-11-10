@@ -1,0 +1,22 @@
+[
+  { "lecteur_id": 2,  "livre_id": 1,  "date_emprunt": "2025-10-25" },
+  { "lecteur_id": 3,  "livre_id": 3,  "date_emprunt": "2025-10-28" },
+  { "lecteur_id": 4,  "livre_id": 4,  "date_emprunt": "2025-11-01" },
+  { "lecteur_id": 6,  "livre_id": 2,  "date_emprunt": "2025-11-02" },
+  { "lecteur_id": 7,  "livre_id": 13, "date_emprunt": "2025-11-03" },
+  { "lecteur_id": 8,  "livre_id": 14, "date_emprunt": "2025-11-03" },
+  { "lecteur_id": 9,  "livre_id": 5,  "date_emprunt": "2025-11-04" },
+  { "lecteur_id": 10, "livre_id": 9,  "date_emprunt": "2025-11-04" },
+  { "lecteur_id": 11, "livre_id": 11, "date_emprunt": "2025-11-05" },
+  { "lecteur_id": 13, "livre_id": 12, "date_emprunt": "2025-11-05" },
+  { "lecteur_id": 14, "livre_id": 16, "date_emprunt": "2025-11-06" },
+  { "lecteur_id": 15, "livre_id": 18, "date_emprunt": "2025-11-06" },
+  { "lecteur_id": 16, "livre_id": 7,  "date_emprunt": "2025-11-07" },
+  { "lecteur_id": 17, "livre_id": 17, "date_emprunt": "2025-11-07" },
+  { "lecteur_id": 18, "livre_id": 19, "date_emprunt": "2025-11-08" },
+  { "lecteur_id": 19, "livre_id": 6,  "date_emprunt": "2025-11-08" },
+  { "lecteur_id": 20, "livre_id": 8,  "date_emprunt": "2025-11-09" },
+  { "lecteur_id": 2,  "livre_id": 10, "date_emprunt": "2025-11-09" },
+  { "lecteur_id": 3,  "livre_id": 15, "date_emprunt": "2025-11-10" },
+  { "lecteur_id": 4,  "livre_id": 20, "date_emprunt": "2025-11-10" }
+]
