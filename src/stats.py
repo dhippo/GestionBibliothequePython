@@ -1,6 +1,5 @@
 # src/stats.py
 # but  charger selon choix user json/csv only pas de fallback
-# style sms dans coms
 
 from __future__ import annotations
 from pathlib import Path
@@ -8,8 +7,6 @@ from datetime import datetime
 import pandas as pd
 import matplotlib.pyplot as plt
 
-
-# ---------- utils ----------
 
 def _ts() -> str:
     # timestamp simple pour nom fichier

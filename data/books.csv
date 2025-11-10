@@ -1,1 +1,16 @@
 id,title,author,category,stock,status
+1,L'Etranger,Albert Camus,Drame,3,available
+2,Les Misérables,Victor Hugo,Roman,7,available
+3,1984,George Orwell,SF,4,available
+4,Le Petit Prince,Antoine de Saint-Exupéry,Conte,5,available
+5,Germinal,Émile Zola,Roman,0,borrowed
+6,Le Rouge et le Noir,Stendhal,Roman,2,available
+7,Candide,Voltaire,Philosophie,3,available
+8,Le Cid,Corneille,Théâtre,1,available
+9,La Peste,Albert Camus,Drame,1,available
+10,Fables,Jean de La Fontaine,Poésie,4,available
+11,Le Seigneur des Anneaux,J. R. R. Tolkien,Fantastique,0,borrowed
+12,Fondation,Isaac Asimov,SF,3,available
+13,Dune,Frank Herbert,SF,2,available
+14,L'Odyssée,Homère,Classique,2,available
+15,Le Nom de la rose,Umberto Eco,Policier,1,available

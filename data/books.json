@@ -1,22 +1,154 @@
 [
-  { "id": 1,  "title": "L'Etranger", "author": "Albert Camus", "category": "Drame",        "stock": 3, "status": "available" },
-  { "id": 2,  "title": "Les Misérables", "author": "Victor Hugo", "category": "Roman",      "stock": 2, "status": "available" },
-  { "id": 3,  "title": "1984", "author": "George Orwell", "category": "SF",                 "stock": 4, "status": "available" },
-  { "id": 4,  "title": "Le Petit Prince", "author": "Antoine de Saint-Exupéry", "category": "Conte", "stock": 5, "status": "available" },
-  { "id": 5,  "title": "Germinal", "author": "Émile Zola", "category": "Roman",            "stock": 3, "status": "available" },
-  { "id": 6,  "title": "Le Rouge et le Noir", "author": "Stendhal", "category": "Roman",   "stock": 2, "status": "available" },
-  { "id": 7,  "title": "Candide", "author": "Voltaire", "category": "Philosophie",          "stock": 3, "status": "available" },
-  { "id": 8,  "title": "Le Cid", "author": "Corneille", "category": "Théâtre",              "stock": 2, "status": "available" },
-  { "id": 9,  "title": "La Peste", "author": "Albert Camus", "category": "Drame",           "stock": 3, "status": "available" },
-  { "id": 10, "title": "Fables", "author": "Jean de La Fontaine", "category": "Poésie",     "stock": 4, "status": "available" },
-  { "id": 11, "title": "Le Seigneur des Anneaux", "author": "J. R. R. Tolkien", "category": "Fantastique", "stock": 2, "status": "available" },
-  { "id": 12, "title": "Harry Potter à l'école des sorciers", "author": "J. K. Rowling", "category": "Fantastique", "stock": 5, "status": "available" },
-  { "id": 13, "title": "Fondation", "author": "Isaac Asimov", "category": "SF",            "stock": 3, "status": "available" },
-  { "id": 14, "title": "Dune", "author": "Frank Herbert", "category": "SF",                 "stock": 3, "status": "available" },
-  { "id": 15, "title": "L'Odyssée", "author": "Homère", "category": "Classique",            "stock": 2, "status": "available" },
-  { "id": 16, "title": "Le Nom de la rose", "author": "Umberto Eco", "category": "Policier","stock": 2, "status": "available" },
-  { "id": 17, "title": "Une brève histoire du temps", "author": "Stephen Hawking", "category": "Essai", "stock": 3, "status": "available" },
-  { "id": 18, "title": "Sapiens", "author": "Yuval Noah Harari", "category": "Histoire",    "stock": 4, "status": "available" },
-  { "id": 19, "title": "L'Écume des jours", "author": "Boris Vian", "category": "Roman",    "stock": 2, "status": "available" },
-  { "id": 20, "title": "Le Père Goriot", "author": "Honoré de Balzac", "category": "Roman", "stock": 3, "status": "available" }
+  {
+    "id": 2,
+    "title": "Les Misérables",
+    "author": "Victor Hugo",
+    "category": "Roman",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "SF",
+    "stock": 4,
+    "status": "available"
+  },
+  {
+    "id": 4,
+    "title": "Le Petit Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Conte",
+    "stock": 5,
+    "status": "available"
+  },
+  {
+    "id": 5,
+    "title": "Germinal",
+    "author": "Émile Zola",
+    "category": "Roman",
+    "stock": 3,
+    "status": "available"
+  },
+  {
+    "id": 6,
+    "title": "Le Rouge et le Noir",
+    "author": "Stendhal",
+    "category": "Roman",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 7,
+    "title": "Candide",
+    "author": "Voltaire",
+    "category": "Philosophie",
+    "stock": 3,
+    "status": "available"
+  },
+  {
+    "id": 8,
+    "title": "Le Cid",
+    "author": "Corneille",
+    "category": "Théâtre",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 9,
+    "title": "La Peste",
+    "author": "Albert Camus",
+    "category": "Drame",
+    "stock": 3,
+    "status": "available"
+  },
+  {
+    "id": 10,
+    "title": "Fables",
+    "author": "Jean de La Fontaine",
+    "category": "Poésie",
+    "stock": 4,
+    "status": "available"
+  },
+  {
+    "id": 11,
+    "title": "Le Seigneur des Anneaux",
+    "author": "J. R. R. Tolkien",
+    "category": "Fantastique",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 12,
+    "title": "Harry Potter à l'école des sorciers",
+    "author": "J. K. Rowling",
+    "category": "Fantastique",
+    "stock": 5,
+    "status": "available"
+  },
+  {
+    "id": 13,
+    "title": "Fondation",
+    "author": "Isaac Asimov",
+    "category": "SF",
+    "stock": 3,
+    "status": "available"
+  },
+  {
+    "id": 14,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "SF",
+    "stock": 4,
+    "status": "available"
+  },
+  {
+    "id": 15,
+    "title": "L'Odyssée",
+    "author": "Homère",
+    "category": "Classique",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 16,
+    "title": "Le Nom de la rose",
+    "author": "Umberto Eco",
+    "category": "Policier",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 17,
+    "title": "Une brève histoire du temps",
+    "author": "Stephen Hawking",
+    "category": "Essai",
+    "stock": 3,
+    "status": "available"
+  },
+  {
+    "id": 18,
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "category": "Histoire",
+    "stock": 4,
+    "status": "available"
+  },
+  {
+    "id": 19,
+    "title": "L'Écume des jours",
+    "author": "Boris Vian",
+    "category": "Roman",
+    "stock": 2,
+    "status": "available"
+  },
+  {
+    "id": 20,
+    "title": "Le Père Goriot",
+    "author": "Honoré de Balzac",
+    "category": "Roman",
+    "stock": 3,
+    "status": "available"
+  }
 ]

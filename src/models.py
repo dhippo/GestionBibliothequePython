@@ -1,6 +1,5 @@
 # src/models.py
 # tous les models + la classe centrale Bibliotheque
-# coms en mode "humain/sms"
 
 from __future__ import annotations
 
@@ -258,7 +257,6 @@ class Bibliotheque:
         self._autosave_books()
         self._autosave_loans()
 
-    # --- search & filter helpers -------------------------------------------------
 
     def find_books(
             self,
@@ -270,7 +268,7 @@ class Bibliotheque:
             sort_by: str | None = None,  # "title" | "author" | "category" | "stock"
             reverse: bool = False,
     ) -> list[Livre]:
-        """Flexible filter: substring on title/author, exact match on category/status."""
+        """filtre par titre auteur catégorie"""
 
         def norm(s: str | None) -> str | None:
             return s.strip().lower() if s else None

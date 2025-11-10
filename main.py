@@ -7,11 +7,9 @@ import os
 import sys
 from pathlib import Path
 
-# --- sys.path so we can import from src/*
 BASE_DIR = Path(__file__).resolve().parent
 sys.path.append(str(BASE_DIR / "src"))
 
-# --- stats (correct function names)
 from stats import (
     generate_books_total_by_category,
     generate_borrowed_by_category,
@@ -19,7 +17,6 @@ from stats import (
     generate_titles_by_category,
 )
 
-# --- domain models
 from models import (
     Bibliotheque,
     Livre,
@@ -29,11 +26,13 @@ from models import (
     Emprunt,
 )
 
-# --- storage (import from 'storage', not 'src.storage')
 from storage import JsonStore, CsvStore
 
+from gui import launch_gui
 
-# ---------------- UI helpers (ascii + inputs) ----------------
+
+
+# ---------------- pour l'ux/ui des menus plus lisibles ----------------
 
 def ui_banner(title: str) -> None:
     w = max(38, len(title) + 6)
@@ -142,7 +141,7 @@ def print_users_preview(bib: Bibliotheque, limit: int = 5) -> None:
         print("... | ... | ... | ...")
 
 
-# ---------------- menus ----------------
+# ---------------- les menus ----------------
 
 def select_store() -> object:
     while True:
@@ -435,7 +434,7 @@ def stats_menu(fmt: str) -> None:
             print("choix invalide")
 
 
-# ---------------- main ----------------
+# ---------------- le menu principal ----------------
 
 def run_menu() -> None:
     store = select_store()
@@ -450,6 +449,7 @@ def run_menu() -> None:
         print("  4  sauvegarder / charger les donnees")
         print("  5  stats (pandas/matplotlib)")
         print("  6  quitter")
+        print("  7  interface graphique avec Tkinter (gui)")
         choice = ui_input("ton choix")
 
         if choice == "1":
@@ -471,6 +471,9 @@ def run_menu() -> None:
             stats_menu(fmt)
         elif choice == "6":
             print("bye"); break
+        elif choice == "7":
+            # ouvre la GUI avec le meme store + meme format (json/csv)
+            launch_gui(bib, fmt)
         else:
             print("choix invalide")
 

@@ -1,1 +1,17 @@
 id,full_name,email,user_type
+1,Laure Gartien,laure.gartien@example.com,Bibliothecaire
+2,Marc Petit,marc.petit@example.com,Bibliothecaire
+3,Elise Martin,elise.martin@example.com,Bibliothecaire
+4,Gaspard Coulomb,gaspard.coulomb@example.com,Lecteur
+5,Anna Dupont,anna.dupont@example.com,Lecteur
+6,Ibrahim Diallo,ibrahim.diallo@example.com,Lecteur
+7,Sophie Martin,sophie.martin@example.com,Lecteur
+8,Lucas Bernard,lucas.bernard@example.com,Lecteur
+9,Clara Rossi,clara.rossi@example.com,Lecteur
+10,Hugo Leroy,hugo.leroy@example.com,Lecteur
+11,Ines Caron,ines.caron@example.com,Lecteur
+12,Karim Benali,karim.benali@example.com,Lecteur
+13,Emma Robert,emma.robert@example.com,Lecteur
+14,Nathan Moreau,nathan.moreau@example.com,Lecteur
+15,Lea Fontaine,lea.fontaine@example.com,Lecteur
+16,hahu,uhhuhuh,Lecteur
