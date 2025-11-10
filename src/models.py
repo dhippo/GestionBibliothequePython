@@ -1,6 +1,14 @@
 # src/models.py
 # tous les models + la classe centrale Bibliotheque
 
+# ici : toute la structure interne de la bibliotheque
+# au debut on a mis les classes de base pour decrire les livres, les utilisateurs et les emprunts
+# ensuite on a les roles lecteur et bibliothecaire avec leurs actions possibles
+# apres on a la grosse classe bibliotheque qui centralise tout, gere les ajouts, les modifs et les sauvegardes
+# en gros c’est ici qu’on fait tourner toute la logique du projet
+
+
+
 from __future__ import annotations
 
 from dataclasses import dataclass

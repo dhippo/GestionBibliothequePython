@@ -1,6 +1,13 @@
 # src/stats.py
 # but  charger selon choix user json/csv only pas de fallback
 
+# ici on gere toute la partie statistiques et generation de graphiques
+# au debut on a mis des petites fonctions utilitaires pour preparer les dossiers et charger les fichiers
+# ensuite on a les fonctions qui chargent les donnees selon le format choisi par l’utilisateur (json ou csv)
+# a la fin on cree les differents graphiques pandas/matplotlib pour visualiser les livres, les emprunts et les utilisateurs
+# en gros c’est le fichier qui s’occupe de transformer les donnees en images
+
+
 from __future__ import annotations
 from pathlib import Path
 from datetime import datetime

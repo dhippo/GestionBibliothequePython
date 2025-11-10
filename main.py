@@ -1,6 +1,14 @@
 # main.py
 # CLI app
 
+# ---------------- Notes ----------------
+
+# ici on a mis toutes les parties du programme principal
+# au début on a déclaré toutes les fonctions qu’on a créées pour améliorer le style dans le terminal avec nos fonctions ui
+# ensuite on s’est occupé des affichages pour bien formater les listes de livres, d’utilisateurs et d’emprunts
+# après on a regroupé tous les menus qui permettent d’interagir avec la bibliothèque et les données
+# à la fin on a le menu principal qui relie tout ça et on lance aussi la version graphique tkinter dans /gui
+
 from __future__ import annotations
 
 import os
@@ -31,8 +39,7 @@ from storage import JsonStore, CsvStore
 from gui import launch_gui
 
 
-
-# ---------------- pour l'ux/ui des menus plus lisibles ----------------
+# ---------------- style dans le terminal pour des menus plus lisibles ----------------
 
 def ui_banner(title: str) -> None:
     w = max(38, len(title) + 6)
@@ -174,7 +181,7 @@ def book_menu(bib: Bibliotheque) -> None:
             stock = ask_int("stock", default=1)
             try:
                 book = bib.add_book(title=title, author=author, category=category, stock=stock)
-                print(f"ok ajoute id {book.id}")
+                print(f"ok {book.title} de {book.author} ajoute en {book.stock} exemplaires (id {book.id})")
             except Exception as e:
                 print(f"erreur {e}")
             press_enter()
@@ -203,19 +210,22 @@ def book_menu(bib: Bibliotheque) -> None:
                     bid, title=new_title, author=new_author, category=new_category,
                     stock=new_stock, status=new_status
                 )
-                print("ok modifie")
+                print(
+                    f"ok livre {b.id} mis a jour {b.title} de {b.author} [{b.category}] stock {b.stock} statut {b.status}")
             except Exception as e:
                 print(f"erreur {e}")
             press_enter()
 
         elif choice == "4":
-            bid = ask_int("id du livre a supprimer")
+            b = bib.get_book(bid)
             try:
                 bib.remove_book(bid)
-                print("ok supprime")
+                if b:
+                    print(f"ok {b.title} de {b.author} supprime (id {bid})")
+                else:
+                    print("ok livre supprime")
             except Exception as e:
                 print(f"erreur {e}")
-            press_enter()
 
         elif choice == "5":
             book_search_menu(bib)

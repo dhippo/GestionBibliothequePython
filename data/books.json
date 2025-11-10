@@ -150,5 +150,13 @@
     "category": "Roman",
     "stock": 3,
     "status": "available"
+  },
+  {
+    "id": 21,
+    "title": "Hyperion",
+    "author": "Dan Simmons",
+    "category": "SF",
+    "stock": 2,
+    "status": "available"
   }
 ]

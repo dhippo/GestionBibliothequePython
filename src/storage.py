@@ -2,6 +2,13 @@
 # JSON et CSV stores pour persister livres / utilisateurs / emprunts
 # dossier cible par défaut: ./data
 
+# ici on gere toute la partie stockage des donnees de la bibliotheque
+# au debut on definit deux classes distinctes : une pour le format csv et une pour le format json
+# chaque classe sait charger et sauvegarder les livres, les utilisateurs et les emprunts
+# tout est ecrit proprement sur disque dans le dossier data, avec des fichiers crees automatiquement si absents
+# en bref ce fichier s’occupe de la persistence entre la memoire et les fichiers du projet
+
+
 from __future__ import annotations
 
 import json

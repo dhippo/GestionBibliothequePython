@@ -2,6 +2,10 @@
 # petite interface tkinter simple pour piloter la bibliotheque
 # style debutant avec variables tres explicites et commentaires en mode sms
 
+# on gere ici une petite interface tkinter avec 4 onglets (livres, users, emprunts, graphs)
+# tout est dans une seule classe simple avec des boutons et affichage d images
+
+
 from __future__ import annotations
 
 import tkinter as tk

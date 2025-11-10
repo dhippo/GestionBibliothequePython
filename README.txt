@@ -29,3 +29,9 @@ Notes techniques
 - POO: Utilisateur -> Lecteur, Bibliothecaire ; classe Bibliotheque centrale
 - Erreurs gérées: stock indisponible, doublons simples, fichiers manquants
 - Pénalité: alerte si un lecteur conserve un livre > 14 jours
+
+La GUI (interface graphique) permet d’utiliser toutes les fonctionnalités du projet via une fenêtre simple en onglets (livres, utilisateurs, emprunts, graphiques).
+
+Projet développé par Nyaralé SAKO, BOUMAZA Sofian, BEN HASSEN Emir, et Hippolyte DURAND dans le cadre du Projet de fin de Semestre d’ING3 en novembre 2025.
+Nom du Projet : GestionBibliothequePython
+
